@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.scss'
-import Post from '../components/Post' 
+import Post from '../components/Post'
 import PostForm from '../components/PostForm'
 import Bio from '../components/Bio'
 
