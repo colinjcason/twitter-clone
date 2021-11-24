@@ -28,3 +28,5 @@ jobs:
         cache: 'npm'
     - run: yarn install
     - run: npx eyes-storybook
+      env:
+        APPLITOOLS_API_KEY: ${{ sercrets.APPLITOOLS_API_KEY }}
